@@ -22,3 +22,14 @@ De forma a evitar geração de custos dos serviços AWS pela utilização de um 
 Para executar a API é preciso que o DynamoDB esteja sendo executado localmente. Todos os procedimentos para download e execução deste serviço localmente estão disponíveis no site da própria AWS:
 
 `https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html`
+
+Para execução:
+
+ + Fazer um fork deste repositório;
+ + Abrir o projeto em sua IDE preferida
+ + Editar o arquivo:
+    `src/main/resources/application-sample.properties`, inserindo as informações relacionadas à AWS
+ + Executar o arquivo:
+    `src/main/java/one.digitalinnovation.heroesapi/HeroesApiApplication.java`
+
+Os requests podem ser feitos utilizando-se Postman, Insomnia ou similares.
